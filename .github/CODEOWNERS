@@ -1,0 +1,13 @@
+# Default owners — every PR pings Frontend unless a more specific rule below matches.
+*                       @hubinity/frontend @hubinity/devops
+
+# Frontend (Angular)
+package.json            @hubinity/frontend @hubinity/devops
+angular.json            @hubinity/frontend
+src/app/**              @hubinity/frontend
+src/styles/**           @hubinity/frontend
+
+# Shared infra files
+Dockerfile              @hubinity/devops
+docker-compose*.yml     @hubinity/devops
+.github/workflows/**    @hubinity/devops
