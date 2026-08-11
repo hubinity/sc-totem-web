@@ -2,10 +2,10 @@
 *                       @hubinity/frontend @hubinity/devops
 
 # Frontend (Angular)
-package.json            @hubinity/frontend @hubinity/devops
-angular.json            @hubinity/frontend
-src/app/**              @hubinity/frontend
-src/styles/**           @hubinity/frontend
+/package.json            @hubinity/frontend @hubinity/devops
+/angular.json            @hubinity/frontend
+/src/app/**              @hubinity/frontend
+/src/styles/**           @hubinity/frontend
 
 # Shared infra files
 Dockerfile              @hubinity/devops
